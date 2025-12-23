@@ -5,6 +5,7 @@ import path from 'path'
 
 
 export default defineConfig({
+  base: '/pp-college/',
   plugins: [
     vue(),
     SvgLoader()
