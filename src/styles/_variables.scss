@@ -1,0 +1,34 @@
+@use 'helpers' as *;
+
+:root {
+  // -- Container --
+  --container-width: 1260px;
+  --container-padding-x: 10px;
+
+  // -- Fonts --
+  --font-family: "Montserrat", sans-serif;
+
+  // -- Colors --
+  --color-light: #F8F9FE;
+  --color-blue-dark: #42397B;
+  --color-blue-dark-2: #1D437C;
+  --color-blue-light: #7B74A3;
+  --color-blue-light-2: #D7D0FF;
+  --color-blue-light-3: #EAEEFB;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+
+  --shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.1);
+
+
+  // -- Color-gradients --
+
+  // -- Borders --
+
+
+  // -- Border-radiuses --
+
+  --radius-m: .5rem;
+  --radius-l: 1rem;
+
+}

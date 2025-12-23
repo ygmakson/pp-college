@@ -1,0 +1,36 @@
+@use 'helpers' as *;
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-light);
+  transition-duration: .2s;
+  overflow-inline: hidden;
+  min-height: 100vh;
+  color: var(--color-blue-dark);
+}
+
+h1 {
+  font-size: fluid(36, 30);
+  font-weight: 500;
+}
+
+h2 {
+  font-size: fluid(30, 24);
+  font-weight: 600;
+}
+
+h3 {
+  font-size: rem(20);
+  font-weight: 500;
+}
+
+a, button, input {
+  transition: all .15s;
+}
+
+a {
+  color: var(--color-blue-dark);
+  @include hover {
+    color: var(--color-blue-dark-2);
+  }
+}
